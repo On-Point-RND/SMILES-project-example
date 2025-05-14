@@ -1,10 +1,3 @@
-# SMILES-project-example
-
-
-Here’s a **ready-to-use Markdown (`.md`)** file for your GitHub repository. Copy and paste this into your `README.md`:
-
----
-
 # 🌟 Retail Risk Monitoring using LLM Agents  
 **GitHub Repository: `retail-risk-monitoring`**
 

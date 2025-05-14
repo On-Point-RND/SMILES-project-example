@@ -50,15 +50,15 @@ retail-risk-monitoring/
 
 ## 📥 Input Data Format
 
-Each input item should contain:
+An example input:
 
 ```json
 {
   "product": "tuna",
-  "news_title": "Fish stocks decline due to overfishing in South Pacific",
-  "news_body": "New report shows tuna populations have dropped...",
-  "source": "BBC",
-  "date": "2025-04-01"
+  "use news pre filter": false
+  "news_title": [a, list, of, news, sources],
+  "strategy": "Chain of thought",
+  "Extra information": Currently an average price for a tuna can is 5$ and our main supplier is in Thailand
 }
 ```
 
@@ -66,7 +66,7 @@ Each input item should contain:
 
 ## 📤 Output Data Format
 
-Each output should be:
+An example output:
 
 ```json
 {
@@ -75,6 +75,7 @@ Each output should be:
   "confidence_score": 0.87,
   "reasoning": "News mentions declining fish stocks and overfishing which directly impacts tuna supply.",
   "risk_type": "supply_chain_disruption",
+  "supporting sources": [a, list, of, supporting, sources, on, the, internet]
   "date": "2025-04-01"
 }
 ```
@@ -98,10 +99,9 @@ Each output should be:
 
 | Model | Use Case | Notes |
 |-------|----------|-------|
-| **OpenAI GPT-4o** | High accuracy | Paid API |
-| **Anthropic Claude 3** | Strong reasoning | Paid API |
+| **QWen 3** | High accuracy | Run locally |
 | **Llama 3 (HuggingFace)** | Open-source alternative | Run locally |
-| **Mistral Large** | Speed-quality balance | HuggingFace |
+| **Mistral Large** | Speed-quality balance | HuggingFace or use free API |
 
 > Wrap LLM calls in `llm_interface.py` for modularity.
 
@@ -133,7 +133,7 @@ Use these metrics on a manually labeled validation set:
 
 ## 📚 Validation Dataset
 
-Create a labeled dataset (~100–200 samples) with:
+Create a labeled retro-dataset (~100–200 samples) with:
 
 - Product name
 - News title/body
@@ -141,10 +141,7 @@ Create a labeled dataset (~100–200 samples) with:
 - Risk type (e.g., `supply_chain_disruption`)
 - Confidence score
 
-**Example Prompt for Dataset Generation**:
-> "You are a risk analyst. Given the following news article about tuna, would you consider it a potential business risk in the next 3 months? Explain your reasoning and rate your confidence from 0 to 1."
 
----
 
 ## 🧪 Sample Usage
 
@@ -185,9 +182,6 @@ python src/risk_classifier.py --product tuna --title "Overfishing threatens tuna
 ## 🔗 Related Links
 
 - [NewsAPI](https://newsapi.org/)
-- [HuggingFace Transformers](https://huggingface.co/)
-- [OpenAI API Docs](https://platform.openai.com/docs/)
-- [Anthropic API Docs](https://docs.anthropic.com/en/api)
 
 ---
 
@@ -211,4 +205,3 @@ MIT License
 4. Add a sample validation dataset (even synthetic).
 5. Fill out the Google Sheet provided by the organizers.
 
-Let me know if you want a `requirements.txt`, sample dataset, or script templates!

@@ -133,6 +133,9 @@ Use these metrics on a manually labeled validation set:
 
 ## 📚 Validation Dataset
 
+Note, you will need to create a validation script which demonsrates performance report with metrics above. 
+Instead of real news your framework will be using this dataset.
+
 Create a labeled retro-dataset (~100–200 samples) with:
 
 - Product name
@@ -197,11 +200,10 @@ MIT License
 
 ---
 
-## ✅ Next Steps
+## ✅ Validation
 
-1. Create a GitHub repo named `retail-risk-monitoring`.
-2. Add this `README.md`.
-3. Initialize the folder structure and placeholder scripts.
-4. Add a sample validation dataset (even synthetic).
-5. Fill out the Google Sheet provided by the organizers.
+1. We will install your framework - it should not have any errors during installation
+2. We will run it in real time for current date and analyze response
+3. We will run validation script using your validation dataset, at this time framework should use your dataset instead of real news.
+
 

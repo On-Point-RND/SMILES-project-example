@@ -23,7 +23,7 @@ This project builds an **end-to-end pipeline** using **LLM agents** to monitor a
 
 ---
 
-## 📁 Example Project Structure
+## 📁 Example Project Structure (it is not necessry, but perhaps some strucure is required based on integration needs)
 
 ```bash
 retail-risk-monitoring/

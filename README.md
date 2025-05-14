@@ -9,8 +9,7 @@ This project builds an **end-to-end pipeline** using **LLM agents** to monitor a
 
 - **Detect risks** for retail products using real-time news analysis.
 - Build a **modular pipeline** that can scale to new products.
-- Evaluate model performance with clear metrics.
-- Provide a **portfolio-worthy project** for students.
+
 
 ---
 
@@ -24,7 +23,7 @@ This project builds an **end-to-end pipeline** using **LLM agents** to monitor a
 
 ---
 
-## 📁 Folder Structure
+## 📁 Example Project Structure
 
 ```bash
 retail-risk-monitoring/

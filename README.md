@@ -3,6 +3,14 @@
 
 This project builds an **end-to-end pipeline** using **LLM agents** to monitor and assess potential risks affecting retail products (starting with **sugar** and **tuna**) over a **3-month horizon**. The goal is to detect early signals from global news (e.g., supply chain disruptions, weather events, regulations) so businesses can act proactively.
 
+# Problem statement 
+**Problem Statement**  
+Global supply chains for retail commodities are increasingly vulnerable to disruptions caused by geopolitical, environmental, and regulatory shifts, which can escalate costs, delay deliveries, and destabilize markets. Products like sugar and tuna, which rely on geographically concentrated production and complex logistics, are particularly at risk. Traditional risk assessment methods often rely on retrospective analyses or siloed data, leaving businesses reactive to emerging threats. Manual monitoring of global news and events is time-consuming, error-prone, and ill-suited for detecting subtle early signals—such as localized weather anomalies, port strikes, or policy drafts—that may cascade into systemic risks. Consequently, decision-makers lack timely, actionable insights to mitigate disruptions within critical planning windows, such as the 3-month horizon pivotal for inventory and procurement strategies.  
+
+To address this gap, we propose an automated, end-to-end pipeline leveraging large language model (LLM) agents to continuously analyze heterogeneous data streams—news articles, government reports, and social media—for early indicators of supply chain risks. By integrating real-time information extraction, causal reasoning, and probabilistic forecasting, the system aims to quantify risks and generate proactive alerts tailored to specific commodities. Focusing initially on sugar and tuna, this approach seeks to transform reactive risk management into a dynamic, predictive process. The pipeline’s adaptability to diverse products and scenarios offers a scalable solution to enhance supply chain resilience, enabling businesses to preempt disruptions rather than merely respond to them.
+
+
+
 ---
 
 ## 🎯 Objective

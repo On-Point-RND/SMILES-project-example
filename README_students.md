@@ -3,20 +3,24 @@
 >❗**NOTE:** all the sections presented here **are obligatory**. 
 
 
-# 🌟 **❗Copy-Paste❗** <Your project title>  
+# 🌟 Your project title
+
 **GitHub Repository: `your-repo-name`**
 
 **❗Copy-Paste❗** The first paragraph from `README_curators.md`. This will be an analogue of `ABSTRACT` of research papers. 
 
-# Problem statement **❗Copy-Paste❗**.
+# Problem statement 
+**❗Copy-Paste❗**
 
 
 # Methodology 
-
+> In this section, briefly but exhaustively describe datasets and methods. It should be clear, how the used methods solve the tasks. 
 
 
 # Results 
+> Add here all the obtained results with all necessary tables and figures.
 
+> For your convenience, we recommend to put all your figures to the `figures/` folder. 
  
 
 # Conclusion 

@@ -20,7 +20,10 @@
 # Results 
 > Add here all the obtained results with all necessary tables and figures.
 
-> For your convenience, we recommend to put all your figures to the `figures/` folder. 
+> For your convenience, we recommend to put all your figures to the `figures/` folder.
+
+> TODO: Add table and figure examples
  
 
 # Conclusion 
+> In this section summarize and analyse the obtained results. If your solution has limitations or you plan to continue working on project, you can add these information here or create the  or responding sections. 

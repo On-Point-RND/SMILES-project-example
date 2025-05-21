@@ -17,7 +17,8 @@ To address this gap, we propose an automated, end-to-end pipeline leveraging lar
 
 ---
 > Please provide all the necessary information to the following sections. You can use the template in this example, but you are **not limited** with it.
-> Some of the information you provide below **may be `copy-pasted`** to their reports (despite the fact that they do not have such instructions regarding the following sections).  
+
+> ❗**NOTE:** some of the information you provide below **may be `copy-pasted`** to their reports (despite the fact that they do not have such instructions regarding the following sections).  
 
 ## 🎯 Objective
 

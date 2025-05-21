@@ -1,13 +1,13 @@
 # 🌟 Retail Risk Monitoring using LLM Agents  
 **GitHub Repository: `retail-risk-monitoring`**
 
-> Please provide short project description in the following paragraph
-> This section will be **copy-pasted** by students to their `README_students` markdown and then into the report as an analogue of `ABSTRACT` section in the classical research papers
+> Please provide short project description in the following paragraph. It should be clear from this paragraph what is the problem statement, the tasks and methods for solving them.  
+> This section will be **copy-pasted** by students to their `README_students` markdown and then into the report as an analogue of `ABSTRACT` section in the classical research papers.  
 
 This project builds an **end-to-end pipeline** using **LLM agents** to monitor and assess potential risks affecting retail products (starting with **sugar** and **tuna**) over a **3-month horizon**. __The goal__ is to detect early signals from global news (e.g., supply chain disruptions, weather events, regulations) so businesses can act proactively.
 
 # Problem statement 
-> This section will be **copy-pasted** by students to their `README_students` markdown and then into the report
+> This section will be **copy-pasted** by students to their `README_students` markdown and then into the report. It should describe the problem, its importance, what are the current solutions and their disadvantages, which methods will be used to address it.  
 
 Global supply chains for retail commodities are increasingly vulnerable to disruptions caused by geopolitical, environmental, and regulatory shifts, which can escalate costs, delay deliveries, and destabilize markets. Products like sugar and tuna, which rely on geographically concentrated production and complex logistics, are particularly at risk. Traditional risk assessment methods often rely on retrospective analyses or siloed data, leaving businesses reactive to emerging threats. Manual monitoring of global news and events is time-consuming, error-prone, and ill-suited for detecting subtle early signals—such as localized weather anomalies, port strikes, or policy drafts—that may cascade into systemic risks. Consequently, decision-makers lack timely, actionable insights to mitigate disruptions within critical planning windows, such as the 3-month horizon pivotal for inventory and procurement strategies.  
 
@@ -16,6 +16,8 @@ To address this gap, we propose an automated, end-to-end pipeline leveraging lar
 
 
 ---
+> Please provide all the necessary information to the following sections. You can use the template in this example, but you are **not limited** with it.
+> Some of the information you provide below **may be `copy-pasted`** to their reports (despite the fact that they do not have such instructions regarding the following sections).  
 
 ## 🎯 Objective
 

@@ -11,9 +11,7 @@ This project develops an **end-to-end pipeline** utilizing **LLM agents** to mon
 
 Global supply chains for retail commodities are increasingly vulnerable to disruptions caused by geopolitical, environmental, and regulatory shifts, which can escalate costs, delay deliveries, and destabilize markets. Products like sugar and tuna, which rely on geographically concentrated production and complex logistics, are particularly at risk. Traditional risk assessment methods often rely on retrospective analyses or siloed data, leaving businesses reactive to emerging threats. Manual monitoring of global news and events is time-consuming, error-prone, and ill-suited for detecting subtle early signals—such as localized weather anomalies, port strikes, or policy drafts—that may cascade into systemic risks. Consequently, decision-makers lack timely, actionable insights to mitigate disruptions within critical planning windows, such as the 3-month horizon pivotal for inventory and procurement strategies.  
 
-To address this gap, we propose an automated, end-to-end pipeline that leverages large language model (LLM) agents to continuously analyze heterogeneous data streams—such as news articles, government reports, and social media—for early indicators of supply chain risks. By integrating real-time information extraction, causal reasoning, and probabilistic forecasting, the system aims to quantify risks and generate proactive alerts tailored to specific commodities. Initially focusing on sugar and tuna, this approach aims to transform reactive risk management into a dynamic, predictive process. The pipeline's adaptability to diverse products and scenarios offers a scalable solution to enhance supply chain resilience, enabling businesses to preempt disruptions rather than merely respond to them.
-
-
+To address this gap, we propose an automated, end-to-end pipeline that leverages large language model (LLM) agents to continuously analyze heterogeneous data streams— such as news articles, government reports, and social media—for early indicators of supply chain risks. By integrating real-time information extraction, causal reasoning, and probabilistic forecasting, the system aims to quantify risks and generate proactive alerts tailored to specific commodities. Initially focusing on sugar and tuna, this approach aims to transform reactive risk management into a dynamic, predictive process. The pipeline's adaptability to diverse products and scenarios offers a scalable solution to enhance supply chain resilience, enabling businesses to preempt disruptions rather than merely respond to them.
 
 ---
 > Please provide all the necessary information in the following sections. You can use the template in this example, but you are **not limited** to it.
@@ -24,7 +22,6 @@ To address this gap, we propose an automated, end-to-end pipeline that leverages
 
 - **Detect risks** for retail products using real-time news analysis.
 - Build a **modular pipeline** that can scale to new products.
-
 
 ---
 
@@ -40,7 +37,7 @@ To address this gap, we propose an automated, end-to-end pipeline that leverages
 
 ## 📁 Example Project Structure (it is not necessary, but perhaps some structure is required based on integration needs)
 
-"`bash
+```bash
 retail-risk-monitoring/
 ├── README.md                      # This file
 ├── config/
@@ -67,7 +64,7 @@ retail-risk-monitoring/
 
 An example input:
 
-"`json
+```json
 {
   "product": "tuna",
   "use news pre filter": false
@@ -83,7 +80,7 @@ An example input:
 
 An example output:
 
-"`json
+```json
 {
   "product": "tuna",
   "risk_detected": true,
@@ -163,12 +160,12 @@ Create a labelled retro-dataset (~100–200 samples) with:
 
 ## 🧪 Sample Usage
 
-"`bash
+```bash
 python src/risk_classifier.py --product tuna --title "Overfishing threatens tuna stocks"
 ```
 
 **Output**:
-"`json
+```json
 {
   "risk_detected": true,
   "confidence_score": 0.92,
@@ -181,17 +178,17 @@ python src/risk_classifier.py --product tuna --title "Overfishing threatens tuna
 ## 📝 Setup Instructions
 
 1. Clone the repo:  
-   "`bash
+   ```bash
    git clone https://github.com/yourusername/retail-risk-monitoring.git
    ```
 2. Install dependencies:  
-   "`bash
+   ```bash
    pip install -r requirements.txt
    ```
 3. Set up API keys:  
    Add keys to `config/api_keys.json`
 4. Run the pipeline:  
-   "`bash
+   ```bash
    python src/risk_classifier.py
    ```
 

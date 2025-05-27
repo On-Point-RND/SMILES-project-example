@@ -22,7 +22,7 @@
 
 > For your convenience, we recommend placing all your figures in the `figures/` folder.
 
-> TODO: Add table and figure examples
+![Image caption example.](figures/image_example.png)
  
 
 # Conclusion 

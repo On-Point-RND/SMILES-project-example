@@ -1,4 +1,4 @@
->❗**NOTE:** the best students projects will be included into SMILES Proceedings -- the collection of students' reports. To save your time, we advice you to **copy-paste** some of the parts from `README_curators` (into `README_students` and further into **latex** for the best works). These parts will be marked as **❗Copy-Paste❗**.
+>❗**NOTE:** the best students projects will be included into SMILES Proceedings -- the collection of students' reports. To save you time, we advise you to **copy and paste** some of the parts from `README_curators` (into `README_students` and further into **LaTeX** for the best results). These parts will be marked as **❗Copy-Paste❗**.
 
 >❗**NOTE:** all the sections presented here **are obligatory**. 
 
@@ -14,16 +14,16 @@
 
 
 # Methodology 
-> In this section, briefly but exhaustively describe datasets and methods. It should be clear, how the used methods solve the tasks. 
+> In this section, briefly but exhaustively describe datasets and methods. It should be clear how the methods used to solve the tasks. 
 
 
 # Results 
-> Add here all the obtained results with all necessary tables and figures.
+> Add here all the obtained results, including all necessary tables and figures.
 
-> For your convenience, we recommend to put all your figures to the `figures/` folder.
+> For your convenience, we recommend placing all your figures in the `figures/` folder.
 
 > TODO: Add table and figure examples
  
 
 # Conclusion 
-> In this section summarize and analyse the obtained results. If your solution has limitations or you plan to continue working on project, you can add these information here or create the  or responding sections. 
+> In this section, summarize and analyze the obtained results. If your solution has limitations or you plan to continue working on a project, you can add this information here or create the responding sections. 

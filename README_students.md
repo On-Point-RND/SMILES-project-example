@@ -22,7 +22,7 @@
 
 > For your convenience, we recommend placing all your figures in the `figures/` folder.
 
-![Image caption example.](figures/image_example.png)
+<img src="figures/image_example.png" alt="Image caption example." width="500"/>
  
 
 # Conclusion 
